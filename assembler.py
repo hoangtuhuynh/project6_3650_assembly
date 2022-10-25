@@ -246,7 +246,7 @@ class SymbolTable(object):
 
 if __name__ == '__main__':
     import sys
-
+//
     asm_filename = sys.argv[1]
     assembler = Assembler(Parser(), SymbolTable(), Code())
     assembler.assemble(asm_filename)
